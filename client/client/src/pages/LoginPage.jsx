@@ -1,3 +1,3 @@
 export default function LoginPage(){
-    return 'login form should go here'
+    return 'welcome siacord here you have come to login page if you have registered and click on registration I will say Itemshould not repeat ba imma siacord'
 }

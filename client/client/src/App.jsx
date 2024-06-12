@@ -3,12 +3,13 @@ import {GardeningIcon, Logo, MobileAppDevelopment, WebDevelopment} from './asset
 import './App.css';
 import {Route,Routes} from "react-router-dom";
 import IndexPage from "./pages/IndexPage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
 
 function App() {
     return (
         <Routes>
             <Route index element={<IndexPage/>}/>
-{/*some comment*/}
+            <Route path="/login" element={<LoginPage/>}/>
         </Routes>
 
 
