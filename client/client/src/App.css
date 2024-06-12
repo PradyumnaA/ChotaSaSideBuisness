@@ -1,3 +1,5 @@
+/* Add this CSS block to your file */
+
 .logo-image {
   width: 60px;
   height: 60px;
@@ -51,4 +53,16 @@
   .logo-text {
     font-size: 1rem;
   }
+}
+
+/* Additional CSS for alignment */
+.individual-postings > div {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.individual-postings > div img {
+  margin-right: 8px; /* Adjust the margin as needed */
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
 }

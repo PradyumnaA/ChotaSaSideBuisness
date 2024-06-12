@@ -1,9 +1,14 @@
 import { useState } from 'react';
 import {GardeningIcon, Logo, MobileAppDevelopment, WebDevelopment} from './assets';
 import './App.css';
+import {Route} from "react-router-dom";
 
 function App() {
     return (
+        // <Routes>
+        //     <Route index={}/>
+        //
+        // </Routes>
         <header className="p-4 flex justify-between flex-wrap">
             <div className="General">
                 <a href="/" className="flex items-center gap-1 logo-with-text">
@@ -25,7 +30,8 @@ function App() {
                 <div className="hidden sm:block border-gray-300 border-l"></div>
                 <div className="hidden sm:flex">
                     <img src={GardeningIcon} alt="Logo" className="logo-image"/>
-                    Gardening Only in India
+                    Gardening
+
                 </div>
                 <button className="bg-primary_red text-white p-2 rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
