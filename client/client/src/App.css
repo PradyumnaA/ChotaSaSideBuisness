@@ -17,6 +17,28 @@
   .logo-text {
     font-size: 1.2rem;
   }
+
+  .individual-postings {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .individual-postings > div {
+    display: block !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .individual-postings > div:not(:last-child) {
+    border-right: none !important;
+  }
+
+  .individual-postings > div:nth-child(odd) {
+    border-right: none !important;
+  }
+
+  .individual-postings > button {
+    margin-top: 0.5rem;
+  }
 }
 
 /* Media query for extra small screens */
