@@ -5,7 +5,7 @@ import Header from "../Header.jsx";
 export default function IndexPage() {
     return(
         <>
-            <Header/>
+           Index Page here
         </>
     )
 }

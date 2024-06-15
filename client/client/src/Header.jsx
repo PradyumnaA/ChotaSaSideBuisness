@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export default function Header(){
     return(
         <div>
-            <header className="p-4 flex justify-between flex-wrap">
+            <header className=" flex justify-between flex-wrap">
                 <div className="General">
                     <a href="/" className="flex items-center gap-1 logo-with-text">
                         <img src={Logo} alt="Logo" className="logo-image"/>
