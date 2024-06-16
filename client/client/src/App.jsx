@@ -6,7 +6,8 @@ import IndexPage from "./pages/IndexPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import Layout from "./Layout.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
-
+import axios from "axios";
+axios.defaults.baseURL='http://localhost:2001'
 function App() {
     return (
         <Routes>
