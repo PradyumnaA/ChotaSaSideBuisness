@@ -7,7 +7,7 @@ export default {
     extend: {
       colors:{
         primary_red:'#F5385D',
-
+        trustable_blue:'#1355e3',
       }
     },
   },
